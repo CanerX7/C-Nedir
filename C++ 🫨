@@ -1,0 +1,30 @@
+C++ güçlü, yüksek performanslı ve nesne yönelimli programlama (OOP) desteği olan bir programlama dilidir. Sistem programlama,
+oyun geliştirme, gömülü sistemler ve uygulama yazılımı geliştirme gibi birçok alanda kullanılır.
+
+Diziler, aynı türden birden fazla değişkeni saklamak için kullanılır.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sayilar[] = {10, 20, 30, 40, 50}; // Dizi tanımlama
+
+    for (int i = 0; i < 5; i++) {
+        cout << "sayilar[" << i << "]: " << sayilar[i] << endl;
+    }
+
+    return 0;
+}
+
+while döngüsü ise 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sayi = 1;
+    while (sayi <= 5) {
+        cout << "Sayac: " << sayi << endl;
+        sayi++;
+    }
+    return 0;
+}
